@@ -1,0 +1,88 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#navbar{
+  background-color: #f1f1f1;
+}
+#main_img{
+  max-width: 300px;
+}
+.quick_links{
+background-color: #f1f1f1;
+margin:100px 0 ; 
+padding:10px; 
+}
+.title{
+  margin:10px;
+  font-weight: 800;
+  
+}
+
+.ptf-card{ 
+   
+    display: flex;
+    justify-content: space-around;
+  
+}
+.project_container{
+  display: inline-flex;
+  background-color: #f1f1f1;
+  padding:10px;
+  justify-content: space-around;
+  margin:15px 0 ;
+  flex-wrap: wrap;
+}
+.img_item{
+    max-width: 150px;
+}
+.category_section{
+    margin:20px;
+}
+.category_container{
+  background-color: #f1f1f1;
+  padding:10px; 
+  margin:15px 0 ;
+}
+footer{
+    background-color:#f1f1f1 ;
+    color:black;
+    width:100%;
+    margin-top:60px;
+    padding:30px;
+}
+.link:hover{
+  cursor: pointer;
+}
+
+.spaced_container{
+margin:10px 0px 10px 10px;
+}
+.category_content{
+  margin:20px 0;
+}
+.last_updated{
+  margin-top: 35px;
+}
+.card-link{
+  margin:35px;
+}
+.footer-links{
+    margin:5px;
+}
+
+#floatingTextarea{
+  height: 200px
+}
+.modal_header{
+  border: none;
+}
+@media screen and (max-width: 710px) {
+    .ptf-card{
+    flex-direction: column;
+    }
+   .project_container{
+     flex-direction: column;
+   }
+ 
+    
+}
