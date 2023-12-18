@@ -1,3 +1,3 @@
-## My portfolio
-Link  -> https://majasociet.netlify.app/
+# My portfolio
+website: https://majasociet.netlify.app/
 # Screenshots
