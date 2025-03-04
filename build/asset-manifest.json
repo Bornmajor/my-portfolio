@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2a2bd4a.css",
+    "main.js": "/static/js/main.e0819203.js",
+    "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
+    "static/media/edited_me.png": "/static/media/edited_me.4d8ad29e9044d5b2a04f.png",
+    "static/media/typing.png": "/static/media/typing.a7bdbbc598cedd3981f7.png",
+    "static/media/404.png": "/static/media/404.a57c416e769a7288bc36.png",
+    "static/media/About me.gif": "/static/media/About me.321d6ac6bc22e22cf1c6.gif",
+    "static/media/mobile.png": "/static/media/mobile.af46fdde7f974017d6e6.png",
+    "static/media/skills.png": "/static/media/skills.e3607143c3532d0b5746.png",
+    "static/media/trends.png": "/static/media/trends.747c6ac66af1a365628f.png",
+    "static/media/error.png": "/static/media/error.8d65015c7b6ada9fb13c.png",
+    "static/media/documents.png": "/static/media/documents.cc14dfa35180b79fbaf2.png",
+    "static/media/website.png": "/static/media/website.1311629bc5c28b29dba3.png",
+    "static/media/skeleton_bg.png": "/static/media/skeleton_bg.f68182c0e9a8985cfc23.png",
+    "static/media/ux.png": "/static/media/ux.db454a21d55a946a0f71.png",
+    "static/media/figma_logo.png": "/static/media/figma_logo.2765830775b79febf3a6.2765830775b79febf3a6.png",
+    "index.html": "/index.html",
+    "main.e2a2bd4a.css.map": "/static/css/main.e2a2bd4a.css.map",
+    "main.e0819203.js.map": "/static/js/main.e0819203.js.map",
+    "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2a2bd4a.css",
+    "static/js/main.e0819203.js"
+  ]
+}
