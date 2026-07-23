@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cat-1",
+    "category": "Languages & Core",
+    "skills": ["Kotlin", "Swift", "TypeScript", "JavaScript", "HTML/CSS"]
+  },
+  {
+    "id": "cat-2",
+    "category": "Frameworks & Libraries",
+    "skills": ["React", "Next.js", "React Native", "Flutter", "Jetpack Compose"]
+  },
+  {
+    "id": "cat-3",
+    "category": "UI & Design Systems",
+    "skills": ["Tailwind CSS", "Ant Design", "Figma", "Material UI"]
+  },
+  {
+    "id": "cat-4",
+    "category": "Tools & Workflow",
+    "skills": ["Git", "GitHub", "Vercel", "Android Studio", "Xcode"]
+  }
+]

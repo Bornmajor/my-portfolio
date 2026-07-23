@@ -1,0 +1,31 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Frontend Engineer",
+    "period": "2024 - Present",
+    "company": {
+      "name": "FinTech Global",
+      "logo": "/images/companies/roamtech_solutions_logo.jpeg"
+    },
+    "location": "Nairobi, Kenya (Hybrid)",
+    "achievements": [
+      "Architected responsive mobile and web interfaces using React and Next.js.",
+      "Reduced main bundle size by 35% through dynamic imports and route-level code splitting.",
+      "Collaborated with UI/UX designers to implement dark mode and global design systems."
+    ]
+  },
+  {
+    "id": "exp-2",
+    "role": "Software Developer Intern",
+    "period": "2023 - 2024",
+    "company": {
+      "name": "Tumatuma",
+      "logo": "/images/companies/roamtech_solutions_logo.jpeg"
+    },
+    "location": "Remote",
+    "achievements": [
+      "Built multi-platform application UI components for cross-border payment workflows.",
+      "Optimized static asset delivery using modern Next.js image optimization techniques."
+    ]
+  }
+]

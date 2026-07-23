@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cs-1",
+    "projectName": "Tumatuma Android App",
+    "challenge": "Low user retention and drop-offs during cross-border money transfer setups due to complex multi-step forms and slow transaction status updates.",
+    "solution": "Redesigned the onboarding workflow into modular, progressive steps and implemented background state synchronization to deliver instant visual feedback upon transfer completion.",
+    "techOrPlatform": "Android (Kotlin, Jetpack Compose)"
+  },
+  {
+    "id": "cs-2",
+    "projectName": "Bunde Mangaro Advocates Site",
+    "challenge": "High bounce rates on mobile devices caused by heavy static assets, poor initial page load speeds, and non-responsive layout scaling.",
+    "solution": "Architected a modern landing page with Next.js static generation, automated WebP image optimizations, and responsive Tailwind layouts to achieve sub-second load times.",
+    "techOrPlatform": "Web (React, Next.js, Tailwind CSS)"
+  }
+]

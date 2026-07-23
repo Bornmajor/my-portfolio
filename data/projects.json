@@ -1,0 +1,36 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Advocates Company landing page",
+    "image": "/images/projects/egitkijqzl8xjnvuxcdf.png", 
+    "description": "The website is a modern and professional landing page for Bunde Mangaro & Company Advocates, designed to engage visitors and provide essential information about the firm's legal services, team, and case studies. It also includes an interactive contact form to connect with potential clients.",
+    "techStack": ["React", "Figma", "antd"],
+    "resources": [
+      {
+        "type": "github",
+        "url": "https://github.com/yourusername/bunde-mangaro"
+      },
+      {
+        "type": "live",
+        "url": "https://bunde-mangaro.demo.com"
+      }
+    ]
+  },
+  {
+    "id": "proj-2",
+    "title": "FinTech Analytics Dashboard",
+    "image": "/images/projects/exkwi7s8vmbyorgywwuw.jpg",
+    "description": "A high-performance portal for tracking international money transfers, featuring complex data visualizations, multi-currency conversion tracking, and real-time payout analysis.",
+    "techStack": ["Next.js", "Chart.js", "Recoil"],
+    "resources": [
+      {
+        "type": "github",
+        "url": "https://github.com/yourusername/fintech-dashboard"
+      },
+      {
+        "type": "live",
+        "url": "https://remittance-demo.vercel.app"
+      }
+    ]
+  }
+]
