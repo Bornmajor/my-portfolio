@@ -5,7 +5,7 @@ export default function SkillsSection() {
   const categories = skillsData as SkillCategory[];
 
   return (
-    <section className="max-w-4xl mx-auto py-12 px-4">
+    <section className="max-w-4xl mx-auto py-12 px-4" id="skills">
       <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
         Skills & Technologies
       </h2>

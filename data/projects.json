@@ -1,35 +1,31 @@
 [
   {
     "id": "proj-1",
-    "title": "Advocates Company landing page",
-    "image": "/images/projects/egitkijqzl8xjnvuxcdf.png", 
-    "description": "The website is a modern and professional landing page for Bunde Mangaro & Company Advocates, designed to engage visitors and provide essential information about the firm's legal services, team, and case studies. It also includes an interactive contact form to connect with potential clients.",
-    "techStack": ["React", "Figma", "antd"],
+    "title": "Tumatuma App",
+    "image": "/images/projects/tumatuma-board.png",
+    "description": "Engineered the mobile banking and remittance platform enabling diaspora users in the UK to complete cross-border money transfers. Features a modular architecture using BLoC concurrency, Veriff identity verification (KYC), and real-time WebSockets.",
+    "techStack": ["Flutter", "Dart", "BLoC Concurrency", "REST APIs", "WebSockets", "Veriff KYC", "Fastlane", "Patrol"],
     "resources": [
       {
-        "type": "github",
-        "url": "https://github.com/yourusername/bunde-mangaro"
+        "type": "playstore",
+        "url": "https://play.google.com/store/apps/details?id=com.tumatuma.app.prod"
       },
       {
-        "type": "live",
-        "url": "https://bunde-mangaro.demo.com"
+        "type": "appstore",
+        "url": "https://apps.apple.com/us/app/tumatuma/id6781247763"
       }
     ]
   },
   {
     "id": "proj-2",
-    "title": "FinTech Analytics Dashboard",
-    "image": "/images/projects/exkwi7s8vmbyorgywwuw.jpg",
-    "description": "A high-performance portal for tracking international money transfers, featuring complex data visualizations, multi-currency conversion tracking, and real-time payout analysis.",
-    "techStack": ["Next.js", "Chart.js", "Recoil"],
+    "title": "Nafusite Mobile App",
+    "image": "/images/projects/nafusite-board.png",
+    "description": "A native Android mobile application built to demonstrate clean architecture, robust state management, and modern Kotlin development principles.",
+    "techStack": ["Kotlin", "Android SDK", "Clean Architecture", "MVVM", "REST APIs"],
     "resources": [
       {
         "type": "github",
-        "url": "https://github.com/yourusername/fintech-dashboard"
-      },
-      {
-        "type": "live",
-        "url": "https://remittance-demo.vercel.app"
+        "url": "https://github.com/Bornmajor/NafusiteMobileApp"
       }
     ]
   }

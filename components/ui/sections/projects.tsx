@@ -1,26 +1,41 @@
-import Image from 'next/image';
-import projectsData from '@/data/projects.json';
-import { ProjectItem } from '@/types/project';
+import Image from "next/image";
+import projectsData from "@/data/projects.json";
+import { ProjectItem } from "@/types/project";
 
 export default function ProjectsSection() {
   const projects = projectsData as ProjectItem[];
 
-  return (
-    <section className="max-w-7xl mx-auto py-16 px-4 md:px-8 space-y-24">
+  // Helper function to return label text based on resource type
+  const getResourceLabel = (type: string) => {
+    switch (type) {
+      case "playstore":
+        return "Play Store";
+      case "appstore":
+        return "App Store";
+      case "github":
+        return "Github";
+      default:
+        return "Live demo";
+    }
+  };
 
-            <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
+  return (
+    <section
+      className="max-w-7xl mx-auto py-16 px-4 md:px-8 space-y-24"
+      id="projects"
+    >
+      <h2 className="text-3xl font-bold tracking-tight mb-8 text-center">
         Projects
       </h2>
 
       {projects.map((project, index) => {
-        // Alternates layout direction (image left, then image right)
         const isOdd = index % 2 === 1;
 
         return (
           <div
             key={project.id}
             className={`flex flex-col gap-12 lg:items-center ${
-              isOdd ? 'lg:flex-row-reverse' : 'lg:flex-row'
+              isOdd ? "lg:flex-row-reverse" : "lg:flex-row"
             }`}
           >
             {/* 1. Large Screenshot */}
@@ -57,20 +72,22 @@ export default function ProjectsSection() {
                 <h4 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
                   Tech stack
                 </h4>
-                <div className="text-base text-emerald-600 dark:text-emerald-400 font-medium">
-                  {project.techStack.join(' ')}
+                <div className="flex flex-wrap gap-x-3 gap-y-2 text-base text-emerald-600 dark:text-emerald-400 font-medium">
+                  {project.techStack.map((tech, idx) => (
+                    <span key={idx}>{tech}</span>
+                  ))}
                 </div>
               </div>
 
-              {/* Resources (Text-Only Buttons) */}
+              {/* Resources Buttons */}
               <div className="space-y-4">
                 <h4 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
                   Resources
                 </h4>
                 <div className="flex flex-wrap gap-4 pt-1">
-                  {project.resources.map((link) => (
+                  {project.resources.map((link, idx) => (
                     <a
-                      key={link.type}
+                      key={`${link.type}-${idx}`}
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -78,7 +95,7 @@ export default function ProjectsSection() {
                                  bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-700 dark:hover:bg-emerald-800 
                                  text-white transition-colors shadow-sm"
                     >
-                      {link.type === 'github' ? 'Github' : 'Live demo'}
+                      {getResourceLabel(link.type)}
                     </a>
                   ))}
                 </div>
@@ -87,6 +104,20 @@ export default function ProjectsSection() {
           </div>
         );
       })}
+
+      {/* Centered Button at End linking to GitHub */}
+      <div className="flex justify-center pt-8">
+        <a
+          href="https://github.com/Bornmajor"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-8 py-3.5 rounded-xl text-base font-semibold 
+                     bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-700 dark:hover:bg-emerald-800 
+                     text-white shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5"
+        >
+          View other projects
+        </a>
+      </div>
     </section>
   );
 }

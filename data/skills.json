@@ -1,22 +1,27 @@
 [
   {
     "id": "cat-1",
-    "category": "Languages & Core",
-    "skills": ["Kotlin", "Swift", "TypeScript", "JavaScript", "HTML/CSS"]
+    "category": "Mobile Frameworks & Languages",
+    "skills": ["Flutter", "React Native", "Dart", "Kotlin", "Java", "JavaScript", "TypeScript", "Android SDK"]
   },
   {
     "id": "cat-2",
-    "category": "Frameworks & Libraries",
-    "skills": ["React", "Next.js", "React Native", "Flutter", "Jetpack Compose"]
+    "category": "State Management & Architecture",
+    "skills": ["BLoC (bloc_concurrency)", "Riverpod", "Zustand", "Clean Architecture", "MVVM", "SSOT", "UDF"]
   },
   {
     "id": "cat-3",
-    "category": "UI & Design Systems",
-    "skills": ["Tailwind CSS", "Ant Design", "Figma", "Material UI"]
+    "category": "APIs, Cloud & Backend Integrations",
+    "skills": ["REST APIs", "WebSockets", "JSON", "Firebase", "Google Cloud Platform (GCP)"]
   },
   {
     "id": "cat-4",
-    "category": "Tools & Workflow",
-    "skills": ["Git", "GitHub", "Vercel", "Android Studio", "Xcode"]
+    "category": "DevOps, CI/CD & Testing",
+    "skills": ["Fastlane", "GitHub Actions", "Xcode Cloud", "Git", "GitHub", "GitLab", "Patrol", "Maestro", "Jest"]
+  },
+  {
+    "id": "cat-5",
+    "category": "Tooling & Design Collaboration",
+    "skills": ["Android Studio", "VS Code", "Figma", "Postman", "Jira", "Linear", "Copilot", "SonarQube"]
   }
 ]

@@ -3,7 +3,7 @@ import heroImage from "@/public/images/yg8ippqhbclvkiss7aah.png"
 
 export default function Intro(){
     return (
-        <section id="hero" className="flex flex-col items-center justify-center bg-background font-montserrat">
+        <section id="hero" className="flex flex-col items-center justify-center bg-background font-montserrat my-8 py-20">
                <Image 
                 src={heroImage}
                 alt="Hero Image"

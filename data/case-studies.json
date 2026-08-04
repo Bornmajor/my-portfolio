@@ -1,16 +1,23 @@
 [
   {
     "id": "cs-1",
-    "projectName": "Tumatuma Android App",
-    "challenge": "Low user retention and drop-offs during cross-border money transfer setups due to complex multi-step forms and slow transaction status updates.",
-    "solution": "Redesigned the onboarding workflow into modular, progressive steps and implemented background state synchronization to deliver instant visual feedback upon transfer completion.",
-    "techOrPlatform": "Android (Kotlin, Jetpack Compose)"
+    "projectName": "Offline-First Data Synchronization",
+    "challenge": "Application failure and data loss when users attempted critical cross-border transactions or viewed account details in low-connectivity environments.",
+    "solution": "Architected an offline-first data layer that persists user state locally, allowing seamless app operation offline and queuing background sync tasks until network connectivity is restored.",
+    "techOrPlatform": "Flutter / Dart (Local Storage, BLoC State Management)"
   },
   {
     "id": "cs-2",
-    "projectName": "Bunde Mangaro Advocates Site",
-    "challenge": "High bounce rates on mobile devices caused by heavy static assets, poor initial page load speeds, and non-responsive layout scaling.",
-    "solution": "Architected a modern landing page with Next.js static generation, automated WebP image optimizations, and responsive Tailwind layouts to achieve sub-second load times.",
-    "techOrPlatform": "Web (React, Next.js, Tailwind CSS)"
+    "projectName": "High-Performance HTTP Caching Strategy",
+    "challenge": "Slow initial screen loads and excessive API usage caused by fetching fresh remote data on every screen navigation.",
+    "solution": "Implemented robust HTTP caching protocols using conditional headers (ETags / Cache-Control) and local cache fallbacks, drastically speeding up data load times and minimizing redundant network payloads.",
+    "techOrPlatform": "Mobile & Web (HTTP Caching, REST APIs)"
+  },
+  {
+    "id": "cs-3",
+    "projectName": "CDN Media & Network Resource Optimization",
+    "challenge": "High latency and increased bandwidth costs caused by delivering unoptimized static assets and heavy media files directly from origin servers.",
+    "solution": "Configured a global Content Delivery Network (CDN) edge-caching layer with automated dynamic image compression and asset minification, significantly accelerating global delivery times and reducing origin server load.",
+    "techOrPlatform": "CDN (Cloudflare / CloudFront, WebP Optimization, Edge Caching)"
   }
 ]
