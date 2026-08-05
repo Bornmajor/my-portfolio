@@ -1,0 +1,37 @@
+[
+  {
+    "id": "exp-1",
+    "role": "Junior Mobile Engineer",
+    "period": "Sep 2025 – Present",
+    "company": {
+      "name": "Roamtech Solution",
+      "logo": "/images/companies/roamtech_solutions_logo.jpeg"
+    },
+    "location": "Nairobi (Hybrid)",
+    "achievements": [
+      "Architected and rewrote the flagship international money transfer (IMT) mobile app (Afrisend) from native Kotlin/Java to Flutter, scaling the app to process over 2,000+ monthly global remittance transactions.",
+      "Integrated secure backend REST APIs supporting multi-channel payouts—including M-Pesa and international bank transfers—enabling instant cross-border payments for African diaspora users.",
+      "Engineered adaptive and responsive layouts in Flutter for the Tumatuma app, fixing critical cross-device rendering bugs to support large form-factors including tablets and foldable devices.",
+      "Optimized client-side validation logic for complex edge cases, reducing invalid API payload submissions and safeguarding transaction data integrity prior to backend processing.",
+      "Engineered the UK-focused Tumatuma remittance app using Flutter and feature-based modular architecture, utilizing bloc_concurrency to ensure reliable event handling during multi-step payout flows.",
+      "Automated deployment pipelines across dev, staging, and prod environments using Fastlane and GitHub Actions, reducing release overhead.",
+      "Integrated Veriff KYC identity verification and real-time WebSockets to deliver instant transaction and compliance updates to end-users.",
+      "Maintained high code quality by establishing automated testing workflows with Patrol for E2E testing and targeting 80%+ unit/integration coverage on core BLoC logic."
+    ]
+  },
+  {
+    "id": "exp-2",
+    "role": "Technology Intern",
+    "period": "Mar 2025 – Aug 2025",
+    "company": {
+      "name": "Roamtech Solution",
+      "logo": "/images/companies/roamtech_solutions_logo.jpeg"
+    },
+    "location": "Nairobi (Hybrid)",
+    "achievements": [
+      "Led end-to-end UI/UX modernization for the Tumatuma mobile app, translating legacy Adobe XD wireframes into Figma component systems to unblock product development.",
+      "Pivoted to full-stack execution due to engineering team bandwidth constraints, single-handedly building and launching the initial cross-platform MVP using React Native.",
+      "Developed and deployed responsive web landing pages using React—including the high-traffic Skiza product landing page—to enhance digital user acquisition."
+    ]
+  }
+]

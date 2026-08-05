@@ -1,0 +1,27 @@
+[
+  {
+    "id": "cat-1",
+    "category": "Mobile Frameworks & Languages",
+    "skills": ["Flutter", "React Native", "Dart", "Kotlin", "Java", "JavaScript", "TypeScript", "Android SDK"]
+  },
+  {
+    "id": "cat-2",
+    "category": "State Management & Architecture",
+    "skills": ["BLoC (bloc_concurrency)", "Riverpod", "Zustand", "Clean Architecture", "MVVM", "SSOT", "UDF"]
+  },
+  {
+    "id": "cat-3",
+    "category": "APIs, Cloud & Backend Integrations",
+    "skills": ["REST APIs", "WebSockets", "JSON", "Firebase", "Google Cloud Platform (GCP)"]
+  },
+  {
+    "id": "cat-4",
+    "category": "DevOps, CI/CD & Testing",
+    "skills": ["Fastlane", "GitHub Actions", "Xcode Cloud", "Git", "GitHub", "GitLab", "Patrol", "Maestro", "Jest"]
+  },
+  {
+    "id": "cat-5",
+    "category": "Tooling & Design Collaboration",
+    "skills": ["Android Studio", "VS Code", "Figma", "Postman", "Jira", "Linear", "Copilot", "SonarQube"]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cs-1",
+    "projectName": "Offline-First Data Synchronization",
+    "challenge": "Application failure and data loss when users attempted critical cross-border transactions or viewed account details in low-connectivity environments.",
+    "solution": "Architected an offline-first data layer that persists user state locally, allowing seamless app operation offline and queuing background sync tasks until network connectivity is restored.",
+    "techOrPlatform": "Flutter / Dart (Local Storage, BLoC State Management)"
+  },
+  {
+    "id": "cs-2",
+    "projectName": "High-Performance HTTP Caching Strategy",
+    "challenge": "Slow initial screen loads and excessive API usage caused by fetching fresh remote data on every screen navigation.",
+    "solution": "Implemented robust HTTP caching protocols using conditional headers (ETags / Cache-Control) and local cache fallbacks, drastically speeding up data load times and minimizing redundant network payloads.",
+    "techOrPlatform": "Mobile & Web (HTTP Caching, REST APIs)"
+  },
+  {
+    "id": "cs-3",
+    "projectName": "CDN Media & Network Resource Optimization",
+    "challenge": "High latency and increased bandwidth costs caused by delivering unoptimized static assets and heavy media files directly from origin servers.",
+    "solution": "Configured a global Content Delivery Network (CDN) edge-caching layer with automated dynamic image compression and asset minification, significantly accelerating global delivery times and reducing origin server load.",
+    "techOrPlatform": "CDN (Cloudflare / CloudFront, WebP Optimization, Edge Caching)"
+  }
+]
