@@ -28,5 +28,18 @@
         "url": "https://github.com/Bornmajor/NafusiteMobileApp"
       }
     ]
+  },
+  {
+    "id": "proj-3",
+    "title": "PixStream",
+    "image": "/images/projects/pixstream.webp",
+    "description": "Addresses disrupted user experiences during network drops, where refreshing forces loss of progress. Resolves this by using real-time connection monitoring and local state preservation to seamlessly resume media fetching from the exact point of interruption without loading unintended new content.",
+    "techStack": ["React Native", "Expo", "Async Storage", "NetInfo", "Axios", "Pexels API", "React Native Paper"],
+    "resources": [
+      {
+        "type": "github",
+        "url": "https://github.com/Bornmajor/pixstream"
+      }
+    ]
   }
 ]
