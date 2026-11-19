@@ -26,7 +26,7 @@ const links = [
 ];
 
 // Google Drive / Docs Link for your Resume
-const RESUME_URL = "https://docs.google.com/document/d/1kV1LBVYVcc2wk6oAxXZ9I6c21zLwe5v1/edit?usp=sharing&ouid=105929605492359857069&rtpof=true&sd=true";
+const RESUME_URL = "https://drive.google.com/file/d/1-mxCweTTyAIFSK3XlevlVnnFdbNReE9Y/view?usp=sharing";
 
 export default function Navbar() {
   return (
