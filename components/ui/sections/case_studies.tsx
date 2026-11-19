@@ -57,6 +57,17 @@ export default function CaseStudiesSection() {
                   {item.techOrPlatform}
                 </div>
               </div>
+
+              {item.link && (
+                <a
+                  href={item.link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-base font-semibold text-emerald-800 dark:text-emerald-400 underline underline-offset-4 hover:text-emerald-900 dark:hover:text-emerald-300"
+                >
+                  {item.link.label}
+                </a>
+              )}
             </div>
 
           </div>

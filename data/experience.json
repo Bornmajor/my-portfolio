@@ -1,23 +1,54 @@
 [
   {
     "id": "exp-1",
-    "role": "Mobile Application Engineer",
-    "period": "Mar 2025 – Present",
+    "role": "Junior Frontend Engineer",
+    "period": "Sep 2025 – Aug 2026",
     "company": {
       "name": "Roamtech Solution",
       "logo": "/images/companies/roamtech_solutions_logo.jpeg"
     },
     "location": "Nairobi (Hybrid)",
     "achievements": [
-      "Architected and rewrote the flagship international money transfer (IMT) mobile app (Afrisend) from native Kotlin/Java to Flutter, scaling the application to process over 2,000+ monthly global remittance transactions across 100+ active downloads.",
-      "Integrated secure backend REST APIs supporting multi-channel payouts—including M-Pesa and international bank transfers—enabling instant cross-border payments for African diaspora users.",
-      "Engineered the UK-focused Tumatuma remittance app using Flutter and feature-based modular architecture, utilizing bloc_concurrency to ensure reliable event handling during high-volume multi-step payout flows.",
-      "Integrated Veriff KYC identity verification and real-time WebSockets to deliver instant transaction and compliance updates to end-users.",
-      "Maintained high code quality by establishing automated testing workflows with Patrol for E2E testing and targeting 80%+ unit/integration coverage on core BLoC logic.",
-      "Automated deployment pipelines across dev, staging, and prod environments using Fastlane and GitHub Actions, significantly reducing release overhead.",
-      "Engineered adaptive layouts in Flutter for Tumatuma, resolving cross-device rendering bugs across tablets and foldable devices while optimizing client-side validation logic to protect transaction data integrity.",
-      "Single-handedly built and launched the initial cross-platform MVP using React Native during internship phase, after converting legacy Adobe XD wireframes into reusable Figma component systems.",
-      "Developed and deployed responsive web landing pages using React—including the high-traffic Skiza product landing page—to accelerate user acquisition."
+      "Tumatuma (UK–Africa money transfer, live on Google Play and the App Store): took features from Figma designs to store releases with Flutter, Clean Architecture and BLoC, and built the send-money flow (live quotes, recipients, payment) with M-Pesa and Open Banking, using bloc_concurrency to prevent duplicate payouts.",
+      "Senti (loan app, native Android): built loan repayment via M-Pesa STK push, helping recover KES 1M+ in repayments (2025–2026) and letting borrowers qualify to borrow again.",
+      "PayKit (payments app, 50K+ downloads): implemented SSL certificate pinning, root and jailbreak detection, and inactivity protection that forces PIN re-entry.",
+      "Tumatuma web (React/TypeScript): contributed to and reviewed code for the web app, including the send-money flow and real-time transaction history.",
+      "Tumatuma: added an offline-first Drift (SQLite) cache and debounced search for recipients, so saved recipients load instantly and the send-money flow runs faster.",
+      "Tumatuma: integrated Veriff KYC and OTP verification to prevent fraud, and showed real-time payment status over WebSockets.",
+      "Tumatuma: automated builds, signing and store releases with GitHub Actions and Fastlane across dev, UAT and production, backed by unit, widget and Patrol E2E tests and Firebase Crashlytics.",
+      "Tumatuma: spotted a UX gap on tablets and foldables, took ownership and fixed it with adaptive layouts.",
+      "Senti: built ID verification with server-side OCR and a fault-tolerant upload queue, so the lender can verify real identities and prevent fraud before lending.",
+      "Senti: built FCM push notifications that report bill payment results in real time, so users no longer open the app to check.",
+      "Used AI-assisted development (Claude, Copilot) with SonarQube, reviewing AI output for security and architecture before merging, and wrote handover documentation (setup, architecture, release process) to onboard new teammates."
+    ]
+  },
+  {
+    "id": "exp-2",
+    "role": "Technology Intern",
+    "period": "Mar 2025 – Aug 2025",
+    "company": {
+      "name": "Roamtech Solution",
+      "logo": "/images/companies/roamtech_solutions_logo.jpeg"
+    },
+    "location": "Nairobi (Hybrid)",
+    "achievements": [
+      "Built the first MVP of Tumatuma in React Native and Expo, with Google Maps address autocomplete and location picking for the KYC form.",
+      "Found the MVP's design stalled and redesigned it in Figma in 3 weeks, unblocking development, then built those screens myself.",
+      "Implemented secure, token-based biometric login, with the token kept in encrypted storage and no passwords stored on the device.",
+      "Wrote Maestro E2E tests for key user journeys, speeding up testing as integrations grew.",
+      "Won the Best Learner award on Roamtech's Udemy programme (KES 40,000 voucher) and applied the new skills (Flutter, native Android) to three production apps."
+    ]
+  },
+  {
+    "id": "exp-3",
+    "role": "Freelance React Developer",
+    "period": "Jan 2025 – Present",
+    "company": {
+      "name": "Nafusite Jewellery Store"
+    },
+    "location": "Remote",
+    "achievements": [
+      "Delivered a responsive React and Firebase e-commerce store with a self-service admin dashboard in three months, taking the business online for the first time. Still maintained and supported."
     ]
   }
 ]

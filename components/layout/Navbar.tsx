@@ -44,27 +44,24 @@ export default function Navbar() {
           <NavigationMenuList className="flex items-center gap-2">
             {links.map((link) => (
               <NavigationMenuItem key={link.href}>
-                {/* Added    prop here */}
-                <NavigationMenuLink>
-                  <Link href={link.href} className="px-4 py-2 text-base font-semibold hover:text-emerald-700 transition-colors">
-                    {link.label}
-                  </Link>
+                <NavigationMenuLink
+                  render={<Link href={link.href} />}
+                  className="px-4 py-2 text-base font-semibold hover:text-emerald-700 transition-colors"
+                >
+                  {link.label}
                 </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
             {/* Resume Link */}
             <NavigationMenuItem>
-              {/* Added    prop here */}
-              <NavigationMenuLink   >
-                <a
-                  href={RESUME_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 text-base font-semibold text-emerald-700 hover:text-emerald-800 transition-colors"
-                >
-                  <HiDocumentText className="h-5 w-5" />
-                  <span>Resume</span>
-                </a>
+              <NavigationMenuLink
+                href={RESUME_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 text-base font-semibold text-emerald-700 hover:text-emerald-800 transition-colors"
+              >
+                <HiDocumentText className="h-5 w-5" />
+                <span>Resume</span>
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -72,10 +69,17 @@ export default function Navbar() {
 
         {/* Mobile nav */}
         <Sheet>
-          <SheetTrigger className="md:hidden"   >
-            <Button variant="ghost" size="icon" aria-label="Open menu">
-              <Menu className="h-6 w-6" />
-            </Button>
+          <SheetTrigger
+            render={
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label="Open menu"
+                className="md:hidden"
+              />
+            }
+          >
+            <Menu className="h-6 w-6" />
           </SheetTrigger>
           <SheetContent side="right" className="p-6">
             <SheetTitle className="text-xl">Menu</SheetTitle>

@@ -2,9 +2,13 @@
   {
     "id": "cs-1",
     "projectName": "Offline-First Data Synchronization",
-    "challenge": "Application failure and data loss when users attempted critical cross-border transactions or viewed account details in low-connectivity environments.",
-    "solution": "Architected an offline-first data layer that persists user state locally, allowing seamless app operation offline and queuing background sync tasks until network connectivity is restored.",
-    "techOrPlatform": "Flutter / Dart (Local Storage, BLoC State Management)"
+    "challenge": "Apps that depend on the network lose user data and break on weak connections, a real risk for flows like cross-border money transfers. I built an open reference implementation of the pattern I use to solve it.",
+    "solution": "A local SQLite database (Drift) is the single source of truth, and the UI reads reactive streams, so it updates itself after every write. Changes are pushed and pulled in the background (WorkManager on Android) using client-generated UUIDs, soft deletes and a last-write-wins rule, so retries never create duplicates. The sync status (Synced, Syncing, N changes waiting, Offline) is always visible to the user.",
+    "techOrPlatform": "Flutter / Dart, Drift (SQLite), Cubit, Dio, WorkManager, Express + MongoDB API",
+    "link": {
+      "label": "View the code on GitHub",
+      "url": "https://github.com/Bornmajor/offline_first_app_flutter_demo"
+    }
   },
   {
     "id": "cs-2",

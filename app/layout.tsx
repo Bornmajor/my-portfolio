@@ -20,7 +20,7 @@ const montserrat = Montserrat({
   weight: ["400", "500", "600", "700"],
 });
 
-const siteTitle = "Osborn Maja | Software Developer (Flutter, Kotlin & TypeScript)";
+const siteTitle = "Osborn Maja | Software Developer (Flutter, React & TypeScript)";
 const siteDescription =
   "Software developer building and shipping production fintech apps with Flutter, Kotlin and TypeScript. Clean architecture, test-driven code, real users.";
 
@@ -52,6 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

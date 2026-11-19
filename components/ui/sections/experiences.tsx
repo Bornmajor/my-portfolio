@@ -32,8 +32,8 @@ export default function Experiences() {
 function ExperienceCard({ item }: { item: ExperienceItem }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Show first 3 achievements by default, or all if expanded
-  const INITIAL_SHOW_COUNT = 3;
+  // Show first 4 achievements by default, or all if expanded
+  const INITIAL_SHOW_COUNT = 4;
   const visibleAchievements = isExpanded
     ? item.achievements
     : item.achievements.slice(0, INITIAL_SHOW_COUNT);
@@ -44,12 +44,22 @@ function ExperienceCard({ item }: { item: ExperienceItem }) {
     <div className="flex flex-col md:flex-row items-start gap-4">
       {/* Logo */}
       <div className="relative w-12 h-12 flex-shrink-0">
-        <Image
-          src={item.company.logo}
-          alt={item.company.name}
-          fill
-          className="rounded-md object-cover"
-        />
+        {item.company.logo ? (
+          <Image
+            src={item.company.logo}
+            alt={item.company.name}
+            fill
+            sizes="48px"
+            className="rounded-md object-cover"
+          />
+        ) : (
+          <div
+            aria-hidden="true"
+            className="flex h-full w-full items-center justify-center rounded-md bg-emerald-700 text-xl font-bold text-white"
+          >
+            {item.company.name.charAt(0)}
+          </div>
+        )}
       </div>
 
       {/* Content Body */}
