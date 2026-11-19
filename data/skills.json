@@ -1,27 +1,32 @@
 [
   {
     "id": "cat-1",
-    "category": "Mobile Frameworks & Languages",
-    "skills": ["Flutter", "React Native", "Dart", "Kotlin", "Java", "JavaScript", "TypeScript", "Android SDK"]
+    "category": "Mobile",
+    "skills": ["Flutter", "Dart", "React Native", "Expo", "Kotlin", "Jetpack Compose", "Java", "Android SDK"]
   },
   {
     "id": "cat-2",
-    "category": "State Management & Architecture",
-    "skills": ["BLoC (bloc_concurrency)", "Riverpod", "Zustand", "Clean Architecture", "MVVM", "SSOT", "UDF"]
+    "category": "Web Frontend",
+    "skills": ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "TanStack Query", "Zod"]
   },
   {
     "id": "cat-3",
-    "category": "APIs, Cloud & Backend Integrations",
-    "skills": ["REST APIs", "WebSockets", "JSON", "Firebase", "Google Cloud Platform (GCP)"]
+    "category": "Backend & Data",
+    "skills": ["Node.js", "Express", "REST APIs", "WebSockets", "OpenAPI", "PostgreSQL", "Supabase", "MongoDB", "SQLite (Drift)", "Firebase", "Google Cloud Platform (GCP)"]
   },
   {
     "id": "cat-4",
-    "category": "DevOps, CI/CD & Testing",
-    "skills": ["Fastlane", "GitHub Actions", "Xcode Cloud", "Git", "GitHub", "GitLab", "Patrol", "Maestro", "Jest"]
+    "category": "Architecture & State",
+    "skills": ["Clean Architecture", "MVVM", "MVI", "Offline-first", "BLoC (bloc_concurrency)", "Riverpod", "Zustand", "SSOT", "UDF"]
   },
   {
     "id": "cat-5",
-    "category": "Tooling & Design Collaboration",
-    "skills": ["Android Studio", "VS Code", "Figma", "Postman", "Jira", "Linear", "Copilot", "SonarQube"]
+    "category": "Testing & DevOps",
+    "skills": ["Git", "GitHub Actions", "Fastlane", "Xcode Cloud", "EAS", "Jest", "Vitest", "Patrol", "Maestro", "SonarQube"]
+  },
+  {
+    "id": "cat-6",
+    "category": "Collaboration",
+    "skills": ["Figma", "Postman", "Jira", "Linear"]
   }
 ]

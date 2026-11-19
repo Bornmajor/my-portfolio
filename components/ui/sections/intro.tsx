@@ -19,9 +19,20 @@ export default function Intro(){
                 alt="Hero Image"
                 width={350}
                 />
-               <h1 className="text-4xl mb-3">Hey I'm Osborn</h1>
-               <h2 className="text-2xl mb-5">Mobile engineer</h2>
-               <p className="text-muted-foreground text-center max-w-xl">Mobile Engineer specializing in native development with clean architecture (MVVM/MVI), writing scalable, test-driven code that delivers premium user experiences.</p>
+               <h1 className="text-4xl mb-3">Hey I&apos;m Osborn</h1>
+               <h2 className="text-2xl mb-5">Software Developer</h2>
+               <p className="text-muted-foreground text-center max-w-xl">I build mobile apps, web frontends and the APIs behind them. Production fintech apps on the App Store and Google Play, built with clean architecture and tested code.</p>
+
+               <ul className="mt-6 flex flex-wrap items-center justify-center gap-3" aria-label="Areas of work">
+                   {["Mobile", "Web", "Backend"].map((lane) => (
+                       <li
+                           key={lane}
+                           className="rounded-full border border-emerald-600 px-4 py-1.5 text-sm font-semibold text-emerald-700 dark:border-emerald-500 dark:text-emerald-400"
+                       >
+                           {lane}
+                       </li>
+                   ))}
+               </ul>
 
                <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
                    <a

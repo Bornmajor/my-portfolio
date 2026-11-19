@@ -4,4 +4,5 @@ export interface CaseStudyItem {
   challenge: string;
   solution: string;
   techOrPlatform: string;
+  link?: { label: string; url: string };
 }
