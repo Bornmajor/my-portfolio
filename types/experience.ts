@@ -1,6 +1,6 @@
 export interface Company {
   name: string;
-  logo: string;
+  logo?: string; // A letter tile is shown when omitted
 }
 
 export interface ExperienceItem {

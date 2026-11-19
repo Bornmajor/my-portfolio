@@ -22,7 +22,7 @@
     "title": "Momento",
     "lanes": ["mobile", "backend"],
     "description": "Android-first event planner. Discover live events from Ticketmaster, add them to your phone's calendar, and use AI to shorten or translate an event's description (English, French, Swahili) before saving. Saved events open offline and sync when you're back online. Backed by a separate Node/Express API that handles auth, caching and AI, with the app's API types generated from its OpenAPI spec.",
-    "techStack": ["React Native", "Expo", "TypeScript", "TanStack Query", "Zustand", "Zod", "Node.js", "Express", "OpenAPI", "Jest", "GitHub Actions"],
+    "techStack": ["React Native", "Expo", "TypeScript", "TanStack Query", "Zustand", "Zod", "Node.js", "Express", "MongoDB", "JWT auth", "OpenAPI", "Jest", "GitHub Actions"],
     "resources": [
       {
         "type": "github",
@@ -41,11 +41,34 @@
     "title": "Chakula Search",
     "lanes": ["web", "backend"],
     "description": "Smart food search for restaurant menus. Customers search the way they talk, in English, Swahili or Sheng, and get matching dishes with a one-line reason for each. Claude turns the query into structured filters, Postgres enforces allergens, diet and price in SQL so a nut dish can never match \"no nuts\", and pgvector ranks the rest. Includes an admin dashboard and a search-insights page for the owner.",
-    "techStack": ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "pgvector", "Claude API", "Row Level Security", "Vitest", "GitHub Actions"],
+    "techStack": ["Next.js", "React", "TypeScript", "Supabase", "PostgreSQL", "pgvector", "Claude API", "Zod", "Row Level Security", "Vitest", "GitHub Actions"],
     "resources": [
+      {
+        "type": "live",
+        "url": "https://chakula-search.netlify.app/"
+      },
       {
         "type": "github",
         "url": "https://github.com/Bornmajor/chakula-search"
+      }
+    ]
+  },
+  {
+    "id": "proj-5",
+    "title": "Nafusite Jewellery Store",
+    "lanes": ["web"],
+    "description": "Freelance client project: a responsive React and Firebase e-commerce store with a self-service admin dashboard, delivered in three months. It took the business online for the first time and is still maintained and supported.",
+    "techStack": ["React", "Firebase", "E-commerce", "Admin dashboard", "Responsive design"],
+    "resources": [
+      {
+        "type": "live",
+        "url": "https://nafusite.netlify.app/",
+        "label": "Live site"
+      },
+      {
+        "type": "live",
+        "url": "https://nafusite-admin.netlify.app/",
+        "label": "Admin dashboard"
       }
     ]
   },
