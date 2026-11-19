@@ -21,6 +21,9 @@
     "id": "proj-2",
     "title": "Momento",
     "lanes": ["mobile", "backend"],
+    "image": "/images/projects/momento-board.webp",
+    "imageFit": "contain",
+    "imageBg": "#d396ab",
     "description": "Android-first event planner. Discover live events from Ticketmaster, add them to your phone's calendar, and use AI to shorten or translate an event's description (English, French, Swahili) before saving. Saved events open offline and sync when you're back online. Backed by a separate Node/Express API that handles auth, caching and AI, with the app's API types generated from its OpenAPI spec.",
     "techStack": ["React Native", "Expo", "TypeScript", "TanStack Query", "Zustand", "Zod", "Node.js", "Express", "MongoDB", "JWT auth", "OpenAPI", "Jest", "GitHub Actions"],
     "resources": [

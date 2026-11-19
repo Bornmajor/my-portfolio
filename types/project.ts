@@ -11,6 +11,8 @@ export interface ProjectItem {
   title: string;
   lanes: ProjectLane[];
   image?: string; // Screenshot path; a text placeholder is shown when omitted
+  imageFit?: 'cover' | 'contain'; // 'contain' shows the whole image (default 'cover', cropped to the top)
+  imageBg?: string; // Background colour behind a 'contain' image
   description: string;
   techStack: string[];
   resources: ProjectResource[];

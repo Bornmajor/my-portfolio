@@ -104,14 +104,21 @@ export default function ProjectsSection() {
                   </span>
                 ))}
               </div>
-              <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl border border-gray-100 dark:border-gray-800">
+              <div
+                className="relative aspect-video rounded-xl overflow-hidden shadow-2xl border border-gray-100 dark:border-gray-800"
+                style={project.imageBg ? { backgroundColor: project.imageBg } : undefined}
+              >
                 {project.image ? (
                   <Image
                     src={project.image}
                     alt={`Screenshot of ${project.title}`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover object-top"
+                    className={
+                      project.imageFit === "contain"
+                        ? "object-contain"
+                        : "object-cover object-top"
+                    }
                     priority={index === 0}
                   />
                 ) : (
